@@ -13,7 +13,7 @@ switch (parseInt(score/10)) {
         break;
     case 6:
         console.log(score, 'D');
-        break;
+        break; 
     default:
         console.log(score, 'F');
 }

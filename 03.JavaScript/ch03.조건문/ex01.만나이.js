@@ -16,7 +16,7 @@ if (bMonth < tMonth) {
     if (bDay <= tDay)
         fullAge = tYear - bYear;
     else
-        fullAge = tYear - bYear - 1;
+        fullAge = tYear - bYear - 1; 
 }
 console.log(`생년월일: ${bYear}-${bMonth>=10?bMonth:'0'+bMonth}-${bDay>=10?bDay:'0'+bDay}`);
 console.log(`오늘날짜: ${tYear}-${tMonth>=10?tMonth:'0'+tMonth}-${tDay>=10?tDay:'0'+tDay}, 만 나이: ${fullAge}`);

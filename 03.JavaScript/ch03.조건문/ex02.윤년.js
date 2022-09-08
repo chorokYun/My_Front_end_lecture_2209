@@ -8,4 +8,4 @@ if (year % 400 == 0) {
     console.log(year, '윤년');
 } else {
     console.log(year, '평년');
-}
+} 
